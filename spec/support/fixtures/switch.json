@@ -1,0 +1,1 @@
+{"attributes": {"Current": false, "ID": "XXXXXXXXXX", "Power": 0.05, "RSSI": -65535, "Voltage": 235.5, "Working": "No", "current_power_mwh": 37.2533, "friendly_name": "Washer", "icon": "mdi:stove", "proxy": "rf"}, "entity_id": "switch.washer", "last_changed": "2017-01-05T16:58:30.881282+00:00", "last_updated": "2017-01-06T07:25:43.450508+00:00", "state": "on"}

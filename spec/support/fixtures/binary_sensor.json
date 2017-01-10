@@ -1,0 +1,1 @@
+{"attributes": {"Battery": "High", "ID": "XXXXXXXXXX", "RSSI": -65535, "Sabotage": "No", "friendly_name": "Window STATE", "proxy": "rf", "sensor_class": "opening"}, "entity_id": "binary_sensor.window", "last_changed": "2017-01-05T16:58:35.009126+00:00", "last_updated": "2017-01-05T16:58:35.009126+00:00", "state": "off"}
