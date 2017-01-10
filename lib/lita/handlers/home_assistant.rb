@@ -79,7 +79,7 @@ module Lita
       def set(msg)
         entity = find_by_name(msg.matches.flatten[0])
         value = msg.matches.flatten[1]
-#        binding.pry
+        #        binding.pry
       end
 
       # state of *
@@ -141,7 +141,7 @@ module Lita
       end
 
       def post(path = '/states', payload)
-        #response = http.post("http://#{config.host}:#{config.port}/api#{path}", payload)
+        # response = http.post("http://#{config.host}:#{config.port}/api#{path}", payload)
         uri = URI.parse(config.url)
         uri.path += uri.path + '/api' + path
         response = http(http_options).post(uri, payload)

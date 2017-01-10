@@ -1,5 +1,7 @@
 # This is the configuration used to check the rubocop source code.
 
+inherit_from: .rubocop_todo.yml
+
 AllCops:
   Exclude:
     - 'vendor/**/*'
@@ -13,6 +15,9 @@ Style/Encoding:
 
 Style/FrozenStringLiteralComment:
   EnforcedStyle: always
+Style/FileName:
+  Exclude:
+    - 'lib/lita-home-assistant.rb'
 
 Metrics/BlockLength:
   Exclude:
